@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Dicet TV</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.6.4.js"></script>
+</head>
+<body>
+    <div class="arrow-back">
+        <img href="#navbar" src="images/arrow-icon.png" alt="arrow icon" id="arrow-back">
+    </div>
+    <header id="header-background">
+        <nav id="navbar">
+            <img src="images/logo.png" alt="website logo" id="logo-img">
+            <div class="header-space-beetween"></div>
+            <div id="navbar-a">
+                <a href="#" class="nav-link"> <img src="images/bulit-icon.png" alt="bulit icon"> HOME</a>
+                <a href="#about" class="nav-link"> <img src="images/bulit-icon.png" alt="bulit icon"> ABOUT</a>
+                <a href="#products" class="nav-link"> <img src="images/bulit-icon.png" alt="bulit icon"> PRODUCTS</a>
+                <a href="#blog" class="nav-link"> <img src="images/bulit-icon.png" alt="bulit icon"> BLOG</a>
+                <a href="#contact-us" class="nav-link"> <img src="images/bulit-icon.png" alt="bulit icon"> CONTACT US</a>
+            </div>
+            <div class="header-space-beetween"></div>
+            <button id="nav-button">GET STARTED</button>
+
+            <div id="nav-icon">
+                <img src="images/user-icon.png" alt="user icon">
+                <img src="images/bag-icon.png" alt="shopping bag icon">
+                <img src="images/search-icon.png" alt="search icon">
+            </div>
+        </nav>
+        <div class="container">
+            <div id="slider-line">
+                <div id="slider">
+                    <div id="slider-content">
+                        <div id="slider-title">
+                            <h2>Your Favorite</h2>
+                            <h1>Shows And Movies</h1>
+                        </div>
+                        <div id="slider-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or</div>
+                        <button class="slider-button">Start Now</button>
+                        <button class="slider-button">Read More</button>
+                    </div>
+                    <img src="images/img-1.png" alt="slider image" id="slider-image">
+
+                    
+                </div>
+            </div>
+            <div id="slider-arrow">
+                        <img src="images/left-arrow.png" alt="left slider arrow" class="slider-arrow left" onclick="MoveSliderLeft()">
+                        <img src="images/right-arrow.png" alt="right slideer arrow" class="slider-arrow right" onclick="MoveSliderRight()">
+            </div>
+        </div>
+
+        <div class="container broadband">
+
+            <div class="broadband-black">
+                <div class="broadband-padding">
+                <img src="images/internet-icon.png" alt="internet icon white" class="broadband-img">
+                
+                <h3 class="broadband-title-black">Broadband</h3>
+                <p class="broadband-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, m Ipsum, you need to be</p>
+                </div>
+            </div>
+
+            <div class="broadband-white">
+                <div class="broadband-padding">
+                    <img src="images/television-icon1.png" alt="television icon" class="broadband-img">
+                    <h3 class="broadband-title-white">Broadband</h3>
+                    <p class="broadband-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, m Ipsum, you need to be</p>
+                </div>            
+            </div>
+
+            <div class="broadband-black">
+                <div class="broadband-padding">
+                    <img src="images/mobile-icon.png" alt="mobile icon white" class="broadband-img" >
+                   
+                    <h3 class="broadband-title-black">Broadband</h3>
+                    <p class="broadband-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, m Ipsum, you need to be</p>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container about-tv" id="about">
+            <div class="about-tv-content">
+                <img src="images/img-2.png" alt="about image" id="about-tv-img">
+                <div class="about-tv-text">
+                    <h2 id="about-tv-title">Live Sport and TV-shows for bestfriends</h2>
+                    <p id="about-tv-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                    <div class="about-tv-links">
+                        <a href="#" class="about-tv-a a-red">4K Ultra HD Quality</a>
+                        <a href="#" class="about-tv-a a-black">200+ Online Channels</a>
+                    </div>
+                    <button id="about-tv-button">Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container tariffs" id="products">
+            <h5 id="tariffs-pre-title">Tariffs</h5>
+            <h2 id="tariffs-title">Choose your plan</h2>
+            <p id="tariffs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum, est ac faucibus hendrerit, mauris ante viverra urna, in elementum urna est ut ligula.</p>
+            
+            <div class="plans">
+                <div class="tariffs-plan">
+                    <div class="plan-about">
+                        <h4 class="plan-title">Easy Surfing</h4>
+                        <h5 class="plan-kind">INTERNET</h5>
+                        <p class="plan-price">$24.99</p>
+                        <p class="plan-duration">Month</p>
+                        <p class="plan-description">It is a long established fact distracteontent</p>
+                    </div>
+                    <button class="plan-button">SEE MORE</button>
+                </div>
+
+                
+                <div class="tariffs-plan center-padding">
+                    <div class="plan-about">
+                        <h4 class="plan-title">Impression</h4>
+                        <h5 class="plan-kind">TV</h5>
+                        <p class="plan-price">$24.99</p>
+                        <p class="plan-duration">Month</p>
+                        <p class="plan-description">It is a long established fact distracteontent</p>
+                    </div>
+                    <button class="plan-button">SEE MORE</button>
+                </div>
+
+                <div class="tariffs-plan">
+                    <div class="plan-about">
+                        <h4 class="plan-title">Premium Plan</h4>
+                        <h5 class="plan-kind">INTERNET + TV + PHONE</h5>
+                        <p class="plan-price">$24.99</p>
+                        <p class="plan-duration">Month</p>
+                        <p class="plan-description">It is a long established fact distracteontent</p>
+                    </div>
+                    <button class="plan-button">SEE MORE</button>
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="container world-bg" id="contact-us">
+            <h2 id="world-bg-title">Check ability to connect our services in your area</h2>
+            <div class="email-block">
+                <h6>IT IS A LONG ESTABLISHED FACT THAT A READER WILL BE DISTRACTED</h6>
+
+                <div class="email-block-input">
+                    <input type="text" placeholder="Enter your address" class="email-input">
+                    <button class="email-button">GET STARTED</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container quote" id="blog">
+            <h2 id="quote-title">What our clients say</h2>
+            <div class="quote-content">
+                <img src="images/img-3.png" alt="profile picture">
+                <div class="quote-text">
+                    <h4 id="user-name">Miller</h4>
+                    <p id="content-text">ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id e
+                    </p>
+                    <img src="images/quote-icon.png" alt="quote icon" id="quote-icon">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container subscribe">
+            <h3 id="subscibe-title">Subscribe now</h3>
+
+            <input type="text" placeholder="Enter your address" class="email-input sub-input">
+            <button class="email-button sub-button">GET STARTED</button>
+        </div>
+
+    </main>
+
+    <footer id="dicet-footer" class="container">
+
+        <div class="footer-column first-column">
+
+            <img src="images/footer-logo.png" alt="footer web logo" id="footer-logo">
+            <h5 class="footer-title">CUSTOMER SERVICE</h5>
+            <p class="footer-text">
+                There are many<br> variations of passages 
+                of<br> Lorem Ipsum available,<br> but the majority 
+                have<br> suffered alteration in<br> some form, by
+            </p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h5 class="footer-title">LET US HELP U</h5>
+            <p class="footer-text">
+                There are many<br> variations of passages 
+                of<br> Lorem Ipsum available,<br> but the majority
+                have<br> suffered alteration in<br> some form, by
+            </p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h5 class="footer-title">INFORMATION</h5>
+            <p class="footer-text">
+                About Us<br>
+                Careers<br>
+                Sell on shopee<br>
+                Press & News<br>
+                Competitions<br>
+                Terms & Conditions
+            </p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h5 class="footer-title">OUR SHOP</h5>
+            <p class="footer-text">
+                There are many<br> variations of passages
+                of<br> Lorem Ipsum available,<br> but the majority
+                have<br> suffered alteration in<br> some form, by
+            </p>
+
+            <div class="footer-social-media">
+                <img src="images/fb-icon.png" alt="facebook icon">
+                <img src="images/twitter-icon.png" alt="twitter icon">
+                <img src="images/instagram-icon.png" alt="instagram icon">
+                <img src="images/linkedin-icon.png" alt="LinkedIn icon">
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="js/animationLink.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
